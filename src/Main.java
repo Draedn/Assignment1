@@ -186,6 +186,7 @@ public class Main {
         System.out.println("Horizontal Distance: " + Tools.roundToTwoDecimalPlaces(Tools.calculateHorizontalDistance(angle,velocity,time)) + " meters");
         System.out.println("Vertical Distance: " + Tools.roundToTwoDecimalPlaces(Tools.calculateVerticalDistance(angle,velocity,time)) + " meters");
     }
+    // CHAT GPT 3.5 (2024) --- Prompt: " How would I display the following code you just gave me in JAVA IntelliJ IDE?"
 
     // </editor-fold>
 

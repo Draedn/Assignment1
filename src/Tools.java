@@ -18,6 +18,8 @@ public class Tools {
         return velocity * Math.cos(angleInRadians) * time;
     }
 
+    // CHAT GPT 3.5 (2024) --- Prompt: " How would I implement the following math formulas in JAVA IntelliJ IDE?"
+
     // Method to calculate vertical distance
     public static double calculateVerticalDistance(double angle, double velocity, double time) {
         double angleInRadians = Math.toRadians(angle);
@@ -26,6 +28,8 @@ public class Tools {
         return Math.max(0, verticalDistance); // Ensure vertical distance doesn't drop below zero
     }
 
+    // CHAT GPT 3.5 (2024) --- Prompt: " How would I implement the following math formulas in JAVA IntelliJ IDE?"
+    // I then copy pasted the formulas from the assignment sheet.
 
     // Validate angle
     public static boolean isValidAngle(double angle) {
@@ -48,16 +52,9 @@ public class Tools {
         }
     }
 
-    // Method to display results
-    public static void displayResults(double horizontalDistance, double verticalDistance) {
-        System.out.println("\nProjectile Position Calculation:");
-        System.out.println("Horizontal Distance: " + roundToTwoDecimalPlaces(horizontalDistance) + " meters");
-        System.out.println("Vertical Distance: " + roundToTwoDecimalPlaces(verticalDistance) + " meters");
-    }
-
-
     // Method to round a double to two decimal places
     public static double roundToTwoDecimalPlaces(double value) {
         return Math.round(value * 100.0) / 100.0;
     }
+    // CHAT GPT 3.5 (2024) --- Prompt: " How would I round two decimal places in JAVA IntelliJ IDE?"
 }
